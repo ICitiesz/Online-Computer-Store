@@ -1,0 +1,183 @@
+/* Trending Products  */
+#trending-products{
+    margin-top: 0;
+}
+
+.trending-content{
+    height: 30%;
+}
+.swiper-button-prev::after, .swiper-button-next::after {
+    content: '';
+}
+
+.swiper-button-prev{
+    left: 3.5rem;
+}
+
+.swiper-button-next{
+    right: 3.5rem;
+}
+
+.swiper-icon{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #CE1212;
+}
+
+.trending-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 530px;
+}
+
+.trending-learn-more{
+    position: absolute;
+    left: 47%;
+    bottom: 10%;
+    z-index: 1;
+}
+
+.trending-button{
+    color: #FFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.trending-icon{
+    font-size: 1.5rem;
+}
+
+.trending-button:hover{
+    color: #E8C5C5;
+}
+.trending-button:hover .trending-icon{
+    transform: translateX(0.35rem);
+    transition: all 0.4s ease-in-out;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets{
+    bottom: -0.7rem;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #CE1212;
+}
+
+/* Tips */
+#tips{
+    padding-bottom: 45px;
+}
+
+.tips {
+    margin-top: 100px;
+    padding-bottom: 75px;
+    margin-bottom: 0;
+}
+
+.tips-content{
+    overflow: hidden;
+    width: 100%;
+    gap: 50px;
+    margin-bottom: 75px;
+    /*margin-top: 90px;*/
+}
+
+.parallelogram-left{
+    width: 40%;
+    height: 250px;
+    margin: 0 40px 0 -45px;
+    padding: 0;
+    transform: skew(20deg);
+    position: relative;
+    overflow: hidden;
+}
+
+.parallelogram-right{
+    width: 40%;
+    height: 250px;
+    padding: 0;
+    margin: 0 -45px 0 40px;
+    transform: skew(-20deg);
+    position: relative;
+    overflow: hidden;
+}
+
+.tips-img-left{
+    transform: skew(-20deg);
+    position: absolute;
+    top: -35px;
+    left: -15px;
+    bottom: -35px;
+    right: -45px;
+}
+
+
+.tips-img-right{
+    transform: skew(20deg);
+    position: absolute;
+    top: -35px;
+    left: -45px;
+    bottom: -35px;
+    right: -15px;
+}
+
+.middle{
+    margin: 75px 0;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0;
+}
+
+
+.img-1{
+    background: url("/OPCS/resources/images/index/tips1.jpg") center;
+    background-size: cover;
+}
+
+.img-2{
+    background: url("/OPCS/resources/images/index/tips2.jpg") center;
+    background-size: cover;
+}
+
+.img-3{
+    background: url('/OPCS/resources/images/index/tips3.jpg') center;
+    background-size: cover;
+}
+
+/* CTA */
+.cta-content ul{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    grid-gap: 15px 50px;
+    list-style-type: none;
+}
+
+
+.cta-link{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.cta-link:hover{
+    color: #FFF;
+}
+
+.cta-follow-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-icons{
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+
+.cta-icons:hover{
+    color: #7952B3;
+    transition: 0.3s;
+}

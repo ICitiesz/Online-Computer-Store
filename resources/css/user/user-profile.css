@@ -1,0 +1,58 @@
+
+/* Content Containers */
+.inner-content-frame {
+    height: 680px;
+}
+
+.panel-container {
+    height: 800px;
+}
+
+/* user Profile */
+.profile-username-input, .profile-phone-number-input, .profile-email-address-input {
+    width: 35%;
+}
+
+.profile-gender-input {
+    width: 20%;
+}
+
+.profile-save {
+    right: 6%;
+    bottom: 6%;
+    color: white;
+    background: rgb(20,20,24);
+    background: linear-gradient(180deg, rgba(20,20,24,1) 0%, rgba(62,64,77,1) 50%, rgba(82,82,93,1) 100%);
+}
+
+.profile-save:hover {
+    color: #838383;;
+}
+
+@media all and (max-width: 991px) {
+    .inner-content-frame {
+        max-height: 680px;
+    }
+
+    .main-body-container {
+        height: 1350px;
+    }
+
+    .button-container {
+        border-right: 0;
+    }
+
+    .profile-username-input, .profile-phone-number-input, .profile-email-address-input {
+        min-width: 200px;
+    }
+
+    .profile-gender-input {
+        min-width: 120px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .profile-username-input, .profile-gender-input, .profile-phone-number-input, .profile-email-address-input {
+        min-width: 100%;
+    }
+}

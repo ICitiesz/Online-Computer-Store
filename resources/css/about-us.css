@@ -1,0 +1,19 @@
+/* About Us */
+.aboutus-content, .vision-mission{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+    margin: 15px auto;
+}
+.img-proof{
+    margin: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vision-mission h2{
+    align-self: center;
+    margin: 30px;
+    font-size: 2.5rem;
+}

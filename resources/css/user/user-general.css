@@ -1,0 +1,66 @@
+/* User Page General */
+.gradient-btn {
+    background: rgb(22,22,22);
+    background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(64,64,64,1) 50%, rgba(22,22,22,1) 100%);
+    color: white;
+}
+
+.gradient-btn:hover {
+    color: #8c8c8c;
+}
+
+.button-container {
+    border-right: 1px solid rgba(207, 207, 207, 0.5);
+}
+
+#profile-image {
+    height: 120px;
+    width: 120px;
+}
+
+.profile-image {
+    height: 120px;
+    width: 120px;
+}
+
+.button-border {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.selected-btn {
+    border-inline-start-width: 10px;
+    border-inline-start-color: #3300a4;
+}
+
+.add-profile-image {
+    bottom: 2%;
+    right: 2%;
+    background: white url("/OPCS/resources/images/general/add_round.png") no-repeat center;
+    background-size: contain;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+/* Update Profile Picture */
+.update-profile-pic-btn {
+    right: 2%;
+    bottom: 0;
+    color: white;
+    background: rgb(14,255,0);
+    background: linear-gradient(180deg, rgba(14,255,0,1) 0%, rgba(7,130,0,1) 50%, rgba(14,255,0,1) 100%);
+}
+
+.cancel-profile-pic-btn {
+    right: 14%;
+    bottom: 0;
+    color: white;
+    background: rgb(20,20,24);
+    background: linear-gradient(180deg, rgba(20,20,24,1) 0%, rgba(62,64,77,1) 50%, rgba(82,82,93,1) 100%);
+}
+
+

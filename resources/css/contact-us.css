@@ -1,0 +1,54 @@
+/* Contact Us Page */
+.contact-detail{
+    width: 75%;
+    margin: 6rem auto;
+}
+
+.contact-description{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    gap: 25px;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-description a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contact-description a:hover{
+    color: #FCDAB7;
+}
+
+.contact-icons{
+    font-size: 1.5rem;
+}
+
+.contact-form{
+    width: 50%;
+    margin: 5rem auto;
+}
+
+.contact-form .subtitle{
+    text-align: center;
+    margin: 30px;
+}
+
+.contact-info .straight-line{
+    margin: 0 auto;
+}
+
+.contact-inputs{
+    display: grid;
+    grid-template-rows: 35px 1fr;
+    padding: 15px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contact-map iframe{
+    width: 90%;
+}

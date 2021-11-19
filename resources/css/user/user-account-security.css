@@ -1,0 +1,79 @@
+
+
+#profile-image {
+    height: 120px;
+}
+
+.panel-container {
+    height: 820px;
+}
+
+/* Confirm Design */
+.button-container {
+    border-right: 1px solid rgba(207, 207, 207, 0.5);
+}
+
+.inner-content-frame {
+    height: 780px;
+}
+
+.password-save {
+    margin-left: 85px;
+    color: white;
+    background: rgb(20,20,24);
+    background: linear-gradient(180deg, rgba(20,20,24,1) 0%, rgba(62,64,77,1) 50%, rgba(82,82,93,1) 100%);
+}
+
+.password-save:hover {
+    color: #838383;;
+}
+
+.two-step-auth-btn {
+    color: white;
+    background: rgb(20,20,24);
+    background: linear-gradient(180deg, rgba(20,20,24,1) 0%, rgba(62,64,77,1) 50%, rgba(82,82,93,1) 100%);
+}
+
+.edit-card-info-btn {
+    width: 30px;
+    height: 30px;
+    background: transparent url("/resources/images/dark-theme/edit-dark_theme.png") center/30px auto no-repeat;
+    border: 0;
+    border-radius: 4px;
+    top: 18%;
+    right: 3%;
+}
+
+.edit-card-info-btn:hover {
+    background: rgba(255, 255, 255, 0.18) url("/resources/images/dark-theme/edit-dark_theme.png") center/30px auto no-repeat;;
+}
+
+/* Change Password */
+.profile-new-password-input, .profile-new-confirm-password-input {
+    width: 35%;
+}
+
+@media all and (max-width: 991px) {
+    .inner-content-frame {
+        max-height: 800px;
+    }
+
+    .main-body-container {
+        height: 1400px;
+        background-color: cyan;
+    }
+
+    .button-container {
+        border-right: 0;
+    }
+
+    .profile-new-password-input, .profile-new-confirm-password-input {
+        min-width: 200px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .profile-new-password-input, .profile-new-confirm-password-input {
+        min-width: 100%;
+    }
+}

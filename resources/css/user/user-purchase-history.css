@@ -1,0 +1,140 @@
+/* Content Containers */
+.inner-content-frame {
+    height: 620px;
+}
+
+.panel-container {
+    height: 720px;
+}
+
+/* Purchase history */
+.purchase-history-product-image {
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;;
+}
+
+.accordion-background {
+    background: rgb(71,71,71);
+    background: radial-gradient(circle, rgba(71,71,71,1) 0%, rgba(99,99,99,1) 50%, rgba(71,71,71,1) 100%);
+}
+
+.table-body-row {
+    color: #d8d8d8;
+    background: rgb(34,34,34);
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(83,83,83,1) 50%, rgba(34,34,34,1) 100%);
+}
+
+
+.table-header {
+    color: white;
+    background: rgb(28,0,65);
+    background: linear-gradient(180deg, rgba(28,0,65,1) 0%, rgba(32,0,74,1) 50%, rgba(28,0,65,1) 100%);
+}
+
+.total-bg {
+    background: rgb(214,214,214);
+    background: linear-gradient(180deg, rgba(214,214,214,1) 0%, rgba(255,255,255,1) 50%, rgba(214,214,214,1) 100%);
+}
+
+.total-price-bg {
+    background: rgb(201,201,201);
+    background: linear-gradient(180deg, rgba(201,201,201,1) 0%, rgba(231,231,231,1) 50%, rgba(201,201,201,1) 100%);
+}
+
+.table-border-thick {
+    border: 1px solid #9f9f9f;
+}
+
+.table-head-number {
+    width: 30px;
+}
+
+.table-head-item {
+    width: 150px;
+}
+
+.table-head-item-name {
+    width: 160px;
+}
+
+.table-head-quantity {
+    width: 50px;
+}
+
+.table-head-total {
+    width: 60px;
+}
+
+.table-overflow-x {
+    overflow-x: auto;
+}
+
+/* Rating/Review */
+.review-submit {
+    color: white;
+    background: rgb(14,255,0);
+    background: linear-gradient(180deg, rgba(14,255,0,1) 0%, rgba(7,130,0,1) 50%, rgba(14,255,0,1) 100%);
+}
+
+.review-submit:hover, .review-cancel:hover, .review-btn:hover {
+    color: #afaeae;
+}
+
+.modal-rating-content .rate-btn:checked ~label{
+    color: yellow;
+}
+
+.rating-content{
+    width: 100%;
+}
+
+.rate-btn:not(:checked) ~ label:hover,
+.rate-btn:not(:checked) ~ label:hover ~ label{
+    color: yellow;
+}
+
+.rate-btn:checked ~ label{
+    color: yellow;
+}
+
+.rating-content .rate-btn{
+    display: none;
+}
+
+.rating-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.review-btn {
+    color: white;
+    background: rgb(0,212,255);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(0,124,149,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+.rating-content label{
+    font-size: 2.125rem;
+    color: #C3C3C3;
+    padding: 10px;
+    float: right;
+    transition: all 0.2s ease;
+}
+
+@media all and (max-width: 991px) {
+    .inner-content-frame {
+        max-height: 600px;
+    }
+
+    .main-body-container {
+        height: 1350px;
+    }
+
+    .button-container {
+        border-right: 0;
+    }
+}

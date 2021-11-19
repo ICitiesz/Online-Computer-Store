@@ -1,0 +1,94 @@
+.product-table{
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(100% - 225px);
+    margin-top: 25px;
+    margin-bottom: 75px;
+    margin-left: 215px;
+}
+.selection{
+    width: 100%;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    color: #333333;
+    background: #FEFBF3;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.view-more{
+    font-size: 1.5rem;
+    transition: all 0.35s linear;
+}
+.view-more.rotate{
+    transform: rotate(180deg);
+}
+.selection:focus,
+.selection:hover{
+    outline: none;     
+    border: 1px solid #bbb;
+}
+.centered-table{
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2rem 13% 40% 10% 10% 10%;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0;
+    color: #000;
+}
+.details{
+    font-size: 1.125rem;
+    font-family: sans-serif;
+}
+
+.detail-row{
+    background: #b7e2e7 !important;
+}
+.container img{
+    width: 4.5rem;
+}
+.hidden{
+    display: none !important;
+}
+.flex-status{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.orange-btn{
+    color: #FFF;
+    width: 85%;
+    background-color: #FF7600;
+    font-family: sans-serif;
+    font-size: 0.95rem;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.orange-btn:hover{
+    background-color: #FFA900;
+    transition: 0.5s;
+}
+th,td{
+    padding: 15px;
+    border: 1px solid white;
+    text-align: center;
+    background: #48b1bd;
+    color:white;
+    margin-left: 200px;
+}
+body{
+    background-image: url("/OPCS/resources/images/administrator/content.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

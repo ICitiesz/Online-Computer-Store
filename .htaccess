@@ -1,0 +1,23 @@
+ErrorDocument 404 /OPCS/en/page-not-found.php
+ErrorDocument 403 /OPCS/en/page-not-found.php
+
+Options -Indexes
+Options +SymLinksIfOwnerMatch
+
+RewriteEngine on
+
+# Check if the file is a directory and check if the file is exists, then remove the .php extension from the end of the URL.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^%{REQUEST_FILENAME}$ %{REQUEST_FILENAME}.php [NC,L]
+
+
+
+
+
+
+
+
+
+
+

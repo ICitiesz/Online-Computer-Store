@@ -1,0 +1,182 @@
+/* Display Product Page */
+.product-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-data{
+    display:grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.product-title{
+    justify-items: start;
+}
+
+.product-details .straight-line{
+    margin: 15px 0;
+}
+
+
+.product-desc{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    align-items: center;
+}
+
+#product_page .container-fluid{
+    padding: 60px 90px;
+}
+
+#product_page .warning{
+    font-size: 0.875rem;
+    color: #ee0014;
+    display: none;
+}
+
+
+.product-title .subtitle{
+    font-size: 2rem;
+}
+
+.product-buttons{
+    margin-top: 45px;
+
+    display: grid;
+    grid-template-columns: 28% 30%;
+    gap: 30px;
+}
+
+.product-buttons .flex-button{
+    gap: 15px;
+    padding: 5px 15px;
+
+    height: 2.75rem;
+    border: none;
+    outline: none;
+    /* border-radius: 10px; */
+    width: 100%;
+}
+
+/*.add-btn,*/
+/*.plus-btn{*/
+/*    border-radius: 0 5px 5px 0;*/
+/*    background-color: #220E24;*/
+/*}*/
+
+/*.reduce-btn,*/
+/*.minus-btn{*/
+/*    background-color: #220E24;*/
+/*    border-radius: 5px 0 0 5px;*/
+/*}*/
+
+.product-title .subtitle{
+    text-align: initial;
+}
+
+.item-quantity .minus button,
+.item-quantity .plus button{
+    height: 100%;
+    width: 100%;
+}
+
+.display-img{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 20%;
+    border-radius: 8px;
+}
+
+.product-all{
+    margin: 0;
+    padding: 0 65px 75px;
+}
+
+.desc-review-tab{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-title{
+    border: 1px solid #F2F2F2;
+    width: 75%;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.description{
+    width: 65%;
+    display: flex;
+
+    padding: 65px 45px;
+    border: 1px solid #F2F2F2;
+    line-height: 1.875rem;
+    border-radius: 8px;
+    white-space: pre-line;
+}
+
+.review{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    gap: 15px;
+    margin: 35px;
+}
+
+.username{
+    font-size: 1.35rem;
+    font-weight: 600;
+}
+
+.username-rating{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.rating-icon{
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+#description-tab{
+    border-radius: 8px 0 0 0;
+}
+
+#review-tab{
+    border-radius: 0 8px 0 0;
+}
+
+.no-review{
+    padding: 45px;
+    text-align: center;
+}
+
+
+.suggestion .straight-line{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suggestion .box-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}

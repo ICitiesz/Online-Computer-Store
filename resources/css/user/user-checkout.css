@@ -1,0 +1,120 @@
+/* Cart Table */
+.table-head-number {
+    width: 30px;
+}
+
+.table-head-item {
+    width: 150px;
+}
+
+.table-head-item-name {
+    width: 160px;
+}
+
+.table-head-quantity {
+    width: 50px;
+}
+
+.table-head-total {
+    width: 60px;
+}
+
+.table-overflow-x {
+    overflow-x: auto;
+}
+
+.table-header {
+    color: white;
+    background: rgb(28,0,65);
+    background: linear-gradient(180deg, rgba(28,0,65,1) 0%, rgba(32,0,74,1) 50%, rgba(28,0,65,1) 100%);
+}
+
+.table-body-row {
+    color: #d8d8d8;
+    background: rgb(34,34,34);
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(83,83,83,1) 50%, rgba(34,34,34,1) 100%);
+}
+
+.table-whole-bg {
+    background: rgb(71,71,71);
+    background: radial-gradient(circle, rgba(71,71,71,1) 0%, rgba(99,99,99,1) 50%, rgba(71,71,71,1) 100%);
+}
+
+.table-border-thick {
+    border: 1px solid #9f9f9f;
+}
+
+.total-bg {
+    background: rgb(214,214,214);
+    background: linear-gradient(180deg, rgba(214,214,214,1) 0%, rgba(255,255,255,1) 50%, rgba(214,214,214,1) 100%);
+}
+
+.total-price-bg {
+    background: rgb(201,201,201);
+    background: linear-gradient(180deg, rgba(201,201,201,1) 0%, rgba(231,231,231,1) 50%, rgba(201,201,201,1) 100%);
+}
+
+.remove-cart-item-btn {
+    color: white;
+    background: rgb(32,1,1);
+    background: linear-gradient(to bottom, rgba(32,1,1,1) 0%, rgba(98,11,11,1) 50%, rgba(255,0,0,1) 100%);
+}
+
+.remove-cart-item-btn:hover {
+    color: #8c8c8c;
+}
+
+.cart-product-image {
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;;
+}
+
+/* Checkout Billing Info */
+.checkout-recipient-name, .checkout-recipient-contact, .checkout-recipient-address {
+    height: 75%;
+    width: 70%;
+    color: black;
+}
+
+#checkout-recipient-billing-address {
+    min-height: 80px;
+}
+
+/* Payment */
+.card-image-box {
+    max-width: 200px;
+}
+
+.card-first-row {
+    max-width: 250px;
+}
+
+.card-second-row {
+    max-width: 340px;
+}
+
+.card-exp-input {
+    max-width: 120px;
+}
+
+.payment-card-input {
+    height: 75%;
+    width: 70%;
+    color: black;
+}
+
+.payment-pay {
+    color: white;
+    background: rgb(14,255,0);
+    background: linear-gradient(180deg, rgba(14,255,0,1) 0%, rgba(7,130,0,1) 50%, rgba(14,255,0,1) 100%);
+}
+
+.payment-overlay-footer {
+    min-height: 80px;
+}
+
+.payment-pay:hover, .payment-cancel:hover {
+    color: #858484;
+}
